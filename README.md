@@ -1,5 +1,5 @@
 # davidalim
 
-This is my minimalist personal webpage.   More will be added in the future.
+This is my personal portfolio.
 
-You can see what it looks like [here](https://spartanindc.github.io/davidalim)
+You can see what it looks like [here](www.davidalim.com)
