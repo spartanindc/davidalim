@@ -1,8 +1,81 @@
+:root {
+  --linkLineColor: #000039;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Carme", sans-serif;
+}
+
 body {
-	background: #8ce29b;
+  background: #4c544e;
 }
 
 main {
-	color: #4c544d;
-    text-align: center;
+  color: #19d395;
+}
+
+header {
+  margin: 50px;
+  color: #19d395;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.project > a {
+  background: linear-gradient(
+    to bottom,
+    var(--linkLineColor) 0%,
+    var(--linkLineColor) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 2px;
+  color: #19d395;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+.project > a:hover {
+  background-size: 4px 50px;
+}
+
+.project > img {
+  width: 200px;
+}
+
+.projects {
+  display: flex;
+  margin: 50px 0;
+  justify-content: space-around;
+}
+
+.projects .project {
+  flex: 1;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.skills ul li {
+  margin: 0 10px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
 }
