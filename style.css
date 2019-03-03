@@ -14,7 +14,7 @@
 }
 
 body {
-  background: #4c544e;
+  background: #1f2624;
 }
 
 main {
@@ -29,6 +29,12 @@ header {
 h1 {
   font-size: 26px;
   font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .project > a {
@@ -50,7 +56,7 @@ h1 {
 }
 
 .project > img {
-  width: 200px;
+  width: 100%;
 }
 
 .projects {
@@ -73,6 +79,12 @@ h1 {
 
 .skills ul li {
   margin: 0 10px;
+}
+
+footer > ul > li > a {
+  text-decoration: none;
+  color: #19d395;
+  font-size: 20px;
 }
 
 footer ul li {
