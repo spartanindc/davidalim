@@ -91,3 +91,12 @@ footer ul li {
   display: inline-block;
   margin: 0 10px;
 }
+
+@media screen and (max-width: 500px) {
+  .projects {
+    flex-direction: column;
+  }
+  .project {
+    margin: 20px 0;
+  }
+}
