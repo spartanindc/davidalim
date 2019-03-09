@@ -59,6 +59,15 @@ h3 {
   width: 100%;
 }
 
+.project > ul {
+  padding-top: 10px;
+}
+
+.project > ul > p {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .projects {
   display: flex;
   margin: 50px 0;
