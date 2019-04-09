@@ -84,6 +84,11 @@ h4 {
   max-width: 80%;
 }
 
+#about {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .project > ul {
   padding-top: 10px;
 }
