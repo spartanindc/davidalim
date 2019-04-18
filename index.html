@@ -15,6 +15,14 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="shortcut icon" href="favicon.ico" />
   </head>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
   <body>
     <header>
       <h1>David Francisco Alim</h1>
@@ -23,7 +31,7 @@
 
     <main>
       <div class="container">
-        <div aria-label="About Me" id="about">
+        <section aria-label="About Me" id="about">
           <h3>Who am I?</h3>
           <p>
             I'm a recovering public policy wonk switching careers channeling my
@@ -37,9 +45,9 @@
             playing board games or video games, or trying to find time to write
             the novel that's been in my head for a few years.
           </p>
-        </div>
+        </section>
       </div>
-      <section aria-label="Projects" class="projects">
+      <section aria-label="Projects" class="projects" id="projects">
         <h3>Recent Projects</h3>
 
         <div class="project">
@@ -120,7 +128,7 @@
       </section>
 
       <div class="container">
-        <section aria-label="Technical Skills" class="skills">
+        <section aria-label="Technical Skills" class="skills" id="skills">
           <h3>Skills</h3>
           <ul>
             <li>Git</li>
@@ -139,32 +147,42 @@
         </section>
       </div>
     </main>
+
     <footer>
-      <ul>
-        <li>
-          <a href="https://github.com/spartanindc" target="_blank"
-            ><img
-              alt="The Github logo signifying a link to go to David's Github profile"
-              src="https://img.icons8.com/nolan/64/000000/github.png"
-          /></a>
-        </li>
-        <li>
-          <a href="mailto: dfa@davidalim.com"
-            ><img
-              alt="A envelope signifying a link to email David"
-              src="https://img.icons8.com/nolan/64/000000/gmail.png"
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/david-alim-b4425424"
-            target="_blank"
-            ><img
-              alt="The LinkedIn logo signifying a link to go to David's LinkedIn profile"
-              src="https://img.icons8.com/nolan/64/000000/linkedin.png"
-          /></a>
-        </li>
-      </ul>
+      <section id="contact">
+        <ul>
+          <li>
+            <a href="https://github.com/spartanindc" target="_blank"
+              ><img
+                alt="The Github logo signifying a link to go to David's Github profile"
+                src="https://img.icons8.com/nolan/64/000000/github.png"
+            /></a>
+          </li>
+          <li>
+            <a href="mailto: dfa@davidalim.com"
+              ><img
+                alt="A envelope signifying a link to email David"
+                src="https://img.icons8.com/nolan/64/000000/gmail.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/david-alim-b4425424"
+              target="_blank"
+              ><img
+                alt="The LinkedIn logo signifying a link to go to David's LinkedIn profile"
+                src="https://img.icons8.com/nolan/64/000000/linkedin.png"
+            /></a>
+          </li>
+        </ul>
+      </section>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jquery.sticky-nav.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

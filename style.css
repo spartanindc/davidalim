@@ -13,6 +13,36 @@
   font-family: "Carme", sans-serif;
 }
 
+nav > ul > li {
+  display: inline-block;
+  margin: 0 -4px;
+  padding: 5px 0;
+}
+
+nav > ul > li > a {
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #19d395;
+}
+
+nav ul li a.active {
+  background: #ff6e6f;
+}
+
+nav {
+  background: #303a37;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+
+nav.sticky {
+  position: fixed;
+}
+
 body {
   background: #1f2624;
 }
