@@ -187,8 +187,6 @@ footer ul li {
 
 @media screen and (max-width: 640px) {
   .projects {
-    display: flex;
-    flex-direction: column;
     margin-top: 20px;
   }
   .project {
@@ -196,5 +194,27 @@ footer ul li {
   }
   .project > p {
     width: auto;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-family: "Permanent Marker", cursive;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    margin-top: 20px;
+  }
+  .project {
+    margin: 20px;
+  }
+  .project > p {
+    width: auto;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-family: "Permanent Marker", cursive;
   }
 }
